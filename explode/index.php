@@ -1,6 +1,6 @@
 <?php 
 
-$full_name = turncate(" Mina Rizk Shehata  ");
+$full_name = trim(" Mina Rizk Shehata  ");
 
 $name = explode(" ", $full_name);
 print_r($name);
